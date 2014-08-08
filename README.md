@@ -1,4 +1,4 @@
-## To run
+## Configure Your VM
 ```bash
 curl https://raw.githubusercontent.com/bvallelunga/vm-init/master/init.sh | sh
 ```

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Prep Work
 mkdir -p /tmp
@@ -16,4 +16,4 @@ unzip -q -o /tmp/master.zip -d /tmp
 rm -f /tmp/master.zip
 
 # Run Command
-bash /tmp/vm-init-master/install.sh
+/bin/bash /tmp/vm-init-master/install.sh

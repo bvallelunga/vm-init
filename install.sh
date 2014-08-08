@@ -15,7 +15,6 @@ done
 #Update APT-GET
 apt-get -y update
 apt-get -y upgrade
-apt-get -y install curl
 apt-get -y install git
 apt-get -y install inotify-tools
 apt-get -y install libssl-dev pkg-config build-essential curl gcc g++ checkinstall make

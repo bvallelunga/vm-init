@@ -1,6 +1,6 @@
 ## To run
 ```bash
-curl https://raw.githubusercontent.com/bvallelunga/vm-init/master/init.sh | bash
+curl https://raw.githubusercontent.com/bvallelunga/vm-init/master/init.sh | sh
 ```
 
 ## Setup SSH Keys

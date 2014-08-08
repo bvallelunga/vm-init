@@ -1,6 +1,4 @@
-#!/bin/bash
-
-set -e
+#!/bin/sh
 
 # Prep Work
 mkdir -p /tmp

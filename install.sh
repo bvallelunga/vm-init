@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -e
+
 #Start Up
 BASE="$(cd "$(dirname "$0")"; pwd)"
 

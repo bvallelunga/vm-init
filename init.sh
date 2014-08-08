@@ -1,9 +1,11 @@
 #!/bin/sh
 
+BASE=/tmp
+
 # Prep Work
-mkdir -p /tmp
-cd /tmp
-rm -f /tmp/master.zip
+mkdir -p $BASE
+cd $BASE
+rm -f $BASE/master.zip
 
 # Install Unzip
 apt-get install -y unzip
@@ -12,8 +14,8 @@ apt-get install -y unzip
 curl -LO https://github.com/bvallelunga/vm-init/archive/master.zip
 
 # Unzip Repo
-unzip -q -o /tmp/master.zip -d /tmp
-rm -f /tmp/master.zip
+unzip -q -o $BASE/master.zip -d $BASE
+rm -f $BASE/master.zip
 
 # Run Command
-/bin/bash /tmp/vm-init-master/install.sh
+/bin/bash $BASE/vm-init-master/install.sh

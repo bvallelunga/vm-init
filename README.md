@@ -1,4 +1,9 @@
-# Root Only
+# To run
+```bash
+curl https://raw.githubusercontent.com/bvallelunga/vm-init/master/init.sh | sh
+```
+
+# Setup SSH Keys
 
 1. **Create Local SSH Keys And Add To Github**
 

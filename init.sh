@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Prep Work
 mkdir -p /tmp

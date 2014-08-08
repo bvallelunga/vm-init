@@ -3,7 +3,7 @@
 # Prep Work
 mkdir -p /tmp
 cd /tmp
-rm master.zip
+rm -f /tmp/master.zip
 
 # Wget Install Zipped Repo
 curl -LO https://github.com/bvallelunga/vm-init/archive/master.zip
@@ -12,5 +12,5 @@ curl -LO https://github.com/bvallelunga/vm-init/archive/master.zip
 unzip -q -o /tmp/master.zip -d /tmp
 rm -f /tmp/master.zip
 
-# Call Command
-bash /tmp/vm-init-master/install.sh $1
+# Run Command
+bash /tmp/vm-init-master/install.sh

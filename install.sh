@@ -50,12 +50,6 @@ npm install -g express forever standby
 npm install -g csslint jslint jsonlint
 npm install -g coffee-script forever
 
-#Install Dev-Proxy & Scout Realtime
-if [ "$1" != "production" ]; then
-    gem install scout_realtime;
-    scout_realtime start;
-fi
-
 #Install Vim
 apt-get -y remove vim-tiny
 apt-get -y install vim
@@ -69,9 +63,6 @@ ufw allow ssh
 ufw allow OpenSSH
 ufw allow http
 ufw allow ftp
-if [ "$1" != "production" ]; then
-    ufw allow 3000:3010/tcp
-fi
 ufw enable
 
 #Configuring System Preferences

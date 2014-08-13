@@ -31,7 +31,7 @@ redis-server /etc/redis/redis.conf
 
 #Install Node
 apt-get -y install nodejs
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+curl -L https://raw.github.com/creationix/nvm/master/install.sh | sh
 echo "[ -s $HOME/.nvm/nvm.sh ] && . $HOME/.nvm/nvm.sh" >> /etc/profile
 
 #Install Nodes Modules
